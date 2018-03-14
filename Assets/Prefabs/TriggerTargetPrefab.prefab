@@ -52,8 +52,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1763645940485672}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.577, y: 0.016505, z: -0.07}
-  m_LocalScale: {x: 0.21932235, y: 0.21932235, z: 0.21932235}
+  m_LocalPosition: {x: 0.577, y: 3, z: 7.68}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
   m_Children:
   - {fileID: 4626645204273712}
   m_Father: {fileID: 0}
@@ -123,8 +123,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 13.34941, y: 11.605593, z: 2.862245}
+  m_Center: {x: 0.34106016, y: -1.1464158, z: -0.9311223}
 --- !u!114 &114790779248183764
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -139,3 +139,5 @@ MonoBehaviour:
   renderers: []
   seqState: {fileID: 11400000, guid: 7b1cf122740b4a04883bc93139f54eae, type: 2}
   audioManager: {fileID: 0}
+  playsAnimation: 1
+  animtransitionname: guide-animation
